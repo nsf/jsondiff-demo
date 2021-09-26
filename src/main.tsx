@@ -56,7 +56,7 @@ const MainUI = () => {
   return (
     <div className="p-4 space-y-2">
       <h1 className="text-3xl break-all">github.com/nsf/jsondiff</h1>
-      <div className="flex w-full flex-col space-y-2 sm:flex-row sm:space-x-2">
+      <div className="flex w-full flex-col space-y-2 space-x-0 sm:flex-row sm:space-x-2 sm:space-y-0">
         {inputBlock(input.a, (a) => setInput({ ...input, a }))}
         {inputBlock(input.b, (b) => setInput({ ...input, b }))}
       </div>
